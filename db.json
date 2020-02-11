@@ -1,8 +1,21 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+
+    {
+    "sabun" : 사번,
+    "name" : 이름,
+    "type": 신청종류,
+    "req_date" : 요청일,
+    "start_date" : 시작일,
+    "end_date" : 종료일,
+    "time": 연차사용시수,
+    "reason" : 사용이유,
+    "destination" : 행성지,
+    "status" : 결과,
+    "first_check" : 1차담당자확인,
+    "final_check" : 최종담당자확인
+    }
+    
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
